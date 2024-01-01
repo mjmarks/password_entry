@@ -11,7 +11,8 @@ It is a simple React task in creating a password entry that addresses the follow
 6. Password has at least 1 special character
 7. Has a submit button that will trigger validation and present success or why the password entry failed
 
-*Note: This project is not an indication of preferred implementations. Its goal is to simply satisfy the aforementioned requirements.*
+*Note: This project is not an indication of preferred implementations. Its goal is to satisfy the aforementioned requirements,
+and nothing more.*
 
 ## Available Scripts
 
