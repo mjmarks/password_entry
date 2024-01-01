@@ -24,7 +24,7 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ### example
-![Screenshot 2024-01-01 at 5 33 08 AM](https://github.com/mjmarks/password_entry/assets/10455691/5ae036c1-3102-4c59-877e-126d5aa31151)
+![Screenshot 2024-01-01 at 6 18 39 AM](https://github.com/mjmarks/password_entry/assets/10455691/c0de4b34-6f9c-457a-b656-3923989ec3ef)
 
 ### `npm test`
 
