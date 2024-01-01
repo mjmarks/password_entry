@@ -23,6 +23,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### `example`
+![Screenshot 2024-01-01 at 5 33 08 AM](https://github.com/mjmarks/password_entry/assets/10455691/5ae036c1-3102-4c59-877e-126d5aa31151)
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
