@@ -1,7 +1,7 @@
 # Password Entry
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-It is a simple React task in creating a password entry that addresses the following requirements:
+It is a simple React exercise in creating a password entry that addresses the following requirements:
 
 1. Has two input fields to validate the entry from the user (both inputs must match)
 2. Password has a min length of 6 characters
