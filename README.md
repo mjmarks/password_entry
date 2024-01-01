@@ -1,4 +1,4 @@
-# Getting Started with Password Entry
+Password Entry
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 It is a simple task in creating a password entry that addresses the following requirements:
