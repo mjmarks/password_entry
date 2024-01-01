@@ -12,7 +12,8 @@ It is a simple React task in creating a password entry that addresses the follow
 7. Has a submit button that will trigger validation and present success or why the password entry failed
 
 *Note: This project is not an indication of preferred implementations. Its goal is to satisfy the aforementioned requirements,
-and nothing more.*
+and nothing more. An example of this is the fact that password evaluation does not include a loading state. A production 
+application would hold great consideration for microinteractions.*
 
 ## Available Scripts
 
