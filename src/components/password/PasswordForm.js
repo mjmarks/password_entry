@@ -9,7 +9,7 @@ import PasswordField from "./PasswordField";
 import ValidationMessage from "./ValidationMessage";
 import VisibilityCheckbox from "./VisibilityCheckbox";
 
-import { PasswordStateContext } from "../../data/providers/PasswordProvider";
+import { PasswordStateContext } from "../../providers/PasswordProvider";
 
 const formStyles = css`
   align-items: center;

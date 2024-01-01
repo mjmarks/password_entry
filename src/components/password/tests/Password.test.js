@@ -7,7 +7,7 @@ test("that a password submission renders a success message", () => {
 
   const pendingIcons = screen.getAllByTestId("PendingIcon");
   const visibilityOffIcon = screen.getByTestId("VisibilityOffIcon");
-  expect(pendingIcons.length).toBe(5);
+  expect(pendingIcons.length).toBe(6);
   expect(visibilityOffIcon).toBeInTheDocument();
 
   const passwordInput = screen.getByLabelText("Password *");
@@ -15,7 +15,7 @@ test("that a password submission renders a success message", () => {
   fireEvent.change(passwordInput, { target: { value: "@Test123" } });
   fireEvent.change(confirmPasswordInput, { target: { value: "@Test123" } });
   const checkCircleIcons = screen.getAllByTestId("CheckCircleIcon");
-  expect(checkCircleIcons.length).toBe(5);
+  expect(checkCircleIcons.length).toBe(6);
 
   const submitButton = screen.getByRole("button", { name: "Submit" });
   fireEvent.click(submitButton);
@@ -29,7 +29,7 @@ test("that a password submission renders a failure message", () => {
 
   const pendingIcons = screen.getAllByTestId("PendingIcon");
   const visibilityOffIcon = screen.getByTestId("VisibilityOffIcon");
-  expect(pendingIcons.length).toBe(5);
+  expect(pendingIcons.length).toBe(6);
   expect(visibilityOffIcon).toBeInTheDocument();
 
   const passwordInput = screen.getByLabelText("Password *");
@@ -37,7 +37,7 @@ test("that a password submission renders a failure message", () => {
   fireEvent.change(passwordInput, { target: { value: "@Test" } });
   fireEvent.change(confirmPasswordInput, { target: { value: "@Test" } });
   const checkCircleIcons = screen.getAllByTestId("CheckCircleIcon");
-  expect(checkCircleIcons.length).toBe(3);
+  expect(checkCircleIcons.length).toBe(4);
 
   const visibilityCheckbox = screen.getByRole("checkbox");
   fireEvent.click(visibilityCheckbox);

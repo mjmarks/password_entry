@@ -1,6 +1,6 @@
 import PasswordForm from "./PasswordForm";
 
-import PasswordProvider from "../../data/providers/PasswordProvider";
+import PasswordProvider from "../../providers/PasswordProvider";
 
 function Password() {
   return (

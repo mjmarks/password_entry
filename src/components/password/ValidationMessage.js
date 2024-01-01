@@ -2,7 +2,7 @@
 import { css } from "@emotion/react";
 import { useContext } from "react";
 
-import { PasswordStateContext } from "../../data/providers/PasswordProvider";
+import { PasswordStateContext } from "../../providers/PasswordProvider";
 
 function ValidationMessage() {
   const { validationMessage } = useContext(PasswordStateContext);

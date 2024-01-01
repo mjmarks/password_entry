@@ -2,7 +2,7 @@ import { Password } from "@mui/icons-material";
 import { TextField } from "@mui/material";
 import { useContext } from "react";
 
-import { PasswordStateContext } from "../../data/providers/PasswordProvider";
+import { PasswordStateContext } from "../../providers/PasswordProvider";
 
 function ConfirmPasswordField() {
   const { confirmPassword, setConfirmPassword, showPassword } =

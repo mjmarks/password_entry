@@ -48,7 +48,10 @@ function PasswordProvider({ children }) {
   const hasNumber = /\d/.test(state.password);
   const hasSpecialChar = /[!@#$%^&*()_\-+={[}\]|:;"'<,>.]/.test(state.password);
   const hasUppercase = /[A-Z]/.test(state.password);
-  const passwordsMatch = state.password === state.confirmPassword;
+  const passwordsMatch =
+    state.password &&
+    state.confirmPassword &&
+    state.password === state.confirmPassword;
 
   const setConfirmPassword = (val) => {
     dispatch({ type: "confirm_password", payload: val });

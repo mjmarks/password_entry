@@ -3,7 +3,7 @@ import { CheckCircle, Pending } from "@mui/icons-material";
 import { css } from "@emotion/react";
 import { useContext } from "react";
 
-import { PasswordStateContext } from "../../data/providers/PasswordProvider";
+import { PasswordStateContext } from "../../providers/PasswordProvider";
 
 const listStyles = {
   container: css`
@@ -36,6 +36,7 @@ function PasswordCriteria() {
     hasNumber,
     hasSpecialChar,
     hasUppercase,
+    passwordsMatch,
   } = useContext(PasswordStateContext);
   return (
     <ul css={listStyles.container}>
@@ -52,6 +53,7 @@ function PasswordCriteria() {
       <ListItem check={hasSpecialChar}>
         Password has at least 1 special character
       </ListItem>
+      <ListItem check={passwordsMatch}>Passwords match</ListItem>
     </ul>
   );
 }

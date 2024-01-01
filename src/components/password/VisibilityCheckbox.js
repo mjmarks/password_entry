@@ -2,7 +2,7 @@ import { Checkbox } from "@mui/material";
 import { Visibility, VisibilityOff } from "@mui/icons-material";
 import { useContext } from "react";
 
-import { PasswordStateContext } from "../../data/providers/PasswordProvider";
+import { PasswordStateContext } from "../../providers/PasswordProvider";
 
 function VisibilityCheckbox() {
   const { setShowPassword, showPassword } = useContext(PasswordStateContext);
