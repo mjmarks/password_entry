@@ -1,5 +1,5 @@
-import { Checkbox } from "@mui/material";
 import { Visibility, VisibilityOff } from "@mui/icons-material";
+import { Checkbox } from "@mui/material";
 import { useContext } from "react";
 
 import { PasswordStateContext } from "../../providers/PasswordProvider";

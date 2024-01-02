@@ -38,6 +38,7 @@ function PasswordCriteria() {
     hasUppercase,
     passwordsMatch,
   } = useContext(PasswordStateContext);
+
   return (
     <ul css={listStyles.container}>
       <ListItem check={hasMinLength}>

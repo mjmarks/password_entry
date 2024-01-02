@@ -11,9 +11,9 @@ It is a simple React exercise in creating a password entry that addresses the fo
 6. Password has at least 1 special character
 7. Has a submit button that will trigger validation and present success or why the password entry failed
 
-*Note: This project is not an indication of preferred implementations. Its goal is to satisfy the aforementioned requirements,
-and nothing more. An example of this is the fact that password evaluation does not include a loading state. A production 
-application would hold great consideration for microinteractions.*
+_Note: This project is not an indication of preferred implementations. Its goal is to satisfy the aforementioned requirements,
+and nothing more. An example of this is the fact that password evaluation does not include a loading state. A production
+application would hold great consideration for microinteractions. Additionally, there would be optimization techniques._
 
 ## Available Scripts
 
@@ -28,6 +28,7 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ### example
+
 ![Screenshot 2024-01-01 at 6 18 39 AM](https://github.com/mjmarks/password_entry/assets/10455691/c0de4b34-6f9c-457a-b656-3923989ec3ef)
 
 ### `npm test`
