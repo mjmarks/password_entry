@@ -13,7 +13,7 @@ It is a simple React exercise in creating a password entry that addresses the fo
 
 _Note: This project is not an indication of preferred implementations. Its goal is to satisfy the aforementioned requirements,
 and nothing more. An example of this is the fact that password evaluation does not include a loading state. A production
-application would hold great consideration for microinteractions. Additionally, there would be optimization techniques._
+application would hold great consideration for microinteractions. Additionally, there would be optimization techniques employed._
 
 ## Available Scripts
 
